@@ -48,9 +48,9 @@ spring:
           jwk-set-uri: 'http://localhost:8201/mall-auth/rsa/publicKey' #配置RSA的公钥访问地址
   redis:
     database: 0
-    port: 6379
-    host: localhost
-    password:
+    port: 8379
+    host: 10.138.52.84
+    password: aYUHewDO0E3
 secure:
   ignore:
     urls: #配置白名单路径
